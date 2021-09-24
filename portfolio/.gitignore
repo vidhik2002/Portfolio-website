@@ -4,3 +4,4 @@ content.js
 dist
 dist-ssr
 *.local
+index.css
