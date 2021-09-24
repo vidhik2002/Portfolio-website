@@ -5,14 +5,33 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
-    <style>
-      body {
-        margin:0;
-      }
-    </style>
+    <link rel="stylesheet" href="index .css">
+    <script src="content.js"></script>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div class="overlay">
+        <p id="name"></p>
+        <p id="description"></p>
+        <!-- <button id="button"></button> -->    
+        <button id="button">
+            <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </button>
+      </div>
+    </div>
     <script type="module" src="/main.js"></script>
+    <script type="text/javascript">
+          var name = content.name;
+          var description = content.description;
+          var button = content.button;
+          document.getElementById('name').innerHTML = name;
+          document.getElementById('description').innerHTML = description;
+          document.getElementById('button').innerHTML = button;
+    </script>
   </body>
 </html>

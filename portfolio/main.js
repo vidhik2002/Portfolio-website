@@ -6,7 +6,7 @@ import * as dat from "https://cdn.skypack.dev/dat.gui";
 // var controls = new OrbitControls(camera, renderer.domElement);
 // console.log(controls)
 
-const gui = new dat.GUI();
+// const gui = new dat.GUI();
 const world = {
   plane: {
     width: 16,
@@ -16,13 +16,13 @@ const world = {
   },
 };
 
-gui.add(world.plane, "width", 1, 20).onChange(generatePlane);
+// gui.add(world.plane, "width", 1, 20).onChange(generatePlane);
 
-gui.add(world.plane, "height", 1, 20).onChange(generatePlane);
+// gui.add(world.plane, "height", 1, 20).onChange(generatePlane);
 
-gui.add(world.plane, "widthSegments", 1, 20).onChange(generatePlane);
+// gui.add(world.plane, "widthSegments", 1, 20).onChange(generatePlane);
 
-gui.add(world.plane, "heightSegments", 1, 20).onChange(generatePlane);
+// gui.add(world.plane, "heightSegments", 1, 20).onChange(generatePlane);
 
 //modularizing
 function generatePlane() {
