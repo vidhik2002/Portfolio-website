@@ -1,6 +1,6 @@
 # Portfolio-website
 Portfolio Website made using 3js!
-### Installation
+## Installation
  
 1. Clone the repo
 ```sh
@@ -10,7 +10,32 @@ git clone https://github.com/vidhik2002/Portfolio-website.git
 ```sh
 cd portfolio
 ```
-3. Run the command
+3. Add content.js
+```
+var content = {
+  name: "<YOUR_NAME>",
+  description: "<YOUR_DESCRIPTION>",
+  button: "<TEXT_ON_BUTTON>",
+};
+```
+4. Run the command
 ```sh
 npm run dev
 ```
+## Deployment
+
+### For development:
+```sh
+npm run dev
+```
+### For production:
+Pre-requisite-
+```sh
+npm i serve -g
+```
+Run the following commands
+```sh
+1. npm run build
+2. serve dist
+```
+
