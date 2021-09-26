@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #18191f;
+    flex-direction: column;
+} */
+.banner {
+    position: relative;
+    min-height: 100vh;
+    background: url(black-texture.jpg);
+    background-color: blue;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+
+}

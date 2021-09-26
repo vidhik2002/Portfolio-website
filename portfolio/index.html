@@ -23,8 +23,11 @@
         color: white;
         font-family:'Courier New', Courier, monospace; 
         font-weight: bold;
-        font-size: 3rem;
+        font-size: 2.7rem;
         
+      }
+      #description {
+        font-size: 1.5rem;
       }
       button {
         border: none;
@@ -44,6 +47,9 @@
         padding-bottom: 0;
         margin-bottom: 0;
       }
+      p {
+        margin-left: 0.8rem;
+      }
     </style>
     <script src="content.js"></script>
   </head>
@@ -53,7 +59,7 @@
         class="overlay">  
           <p id="name"></p>
           <p id="description"></p>
-          <button id="button"></button>
+          <button id="button" onclick="window.location.href='/Page1.html'"></button>
         </div>
       </div>
 
