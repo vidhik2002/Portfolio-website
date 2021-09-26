@@ -21,7 +21,7 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
-    padding: 40px 100px;
+    padding: 30px 100px;
     position: fixed;
     top:0;
     left:0;
@@ -67,8 +67,22 @@ header .toggle {
 }  */
 .about {
     position: relative;
+    margin-top: 2rem;
     min-height: 100vh;
     /* background: url(black-texture.jpg); */
+    background-color: black;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    color: white;
+}
+.work {
+    position: relative;
+    min-height: 100vh;
+    background: url(/images/black-texture.jpg);
     background-color: black;
     background-repeat: no-repeat;
     display: flex;
@@ -78,16 +92,21 @@ header .toggle {
     align-items: center;
     color: white;
 }
-.work {
-    position: relative;
-    min-height: 100vh;
-    background: url(black-texture.jpg);
-    background-color: black;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
+section .heading{
+    
+    font-size: 3rem;
     align-items: center;
     justify-content: center;
-    align-items: center;
-    color: white;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.img {
+    width: 40rem;
+    height: 30rem;
+}
+.contentbox p {
+    width: 500px;
+    word-wrap: break-word;
 }

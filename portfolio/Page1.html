@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
     <link rel="stylesheet" href="Page1.css">
+    <script type="text/javascript" src="content.js"></script>
 </head>
 <body>
     <header>
@@ -14,24 +15,37 @@
         <br>
         <br>
         <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
             <li><a href="#">Contact Me</a></li>
         </ul>
     </header>
-    <section class="about">
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentbox image">
+                <h3 is="oneline"></h3>
+                <p id="description"></p>
+            </div>
+            <div class="image">
+                <img src="/images/grass.jpg" class="img">
+            </div>
+        </div>
+    </section>
+    <section class="work" id="work">
         <div>
             <h2> Vidhi Khaitan </h2>
             <h3>Tech Enthusiast</h3>
             <button>About me</button>
         </div>
     </section>
-    <section class="work">
-        <div>
-            <h2> Vidhi Khaitan </h2>
-            <h3>Tech Enthusiast</h3>
-            <button>About me</button>
-        </div>
-    </section>
+    <script type="text/javascript">
+        var msg1 = content.aboutdescription;
+        var msg2 = content.onelinedescription;
+        document.getElementById('description').innerHTML = msg1;
+        document.getElementById('oneline').innerHTML = msg2;
+    </script>
 </body>
 </html>
