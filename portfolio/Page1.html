@@ -26,7 +26,7 @@
         </div>
         <div class="content">
             <div class="contentbox image">
-                <h3 is="oneline"></h3>
+                <h3 id="oneline"></h3>
                 <p id="description"></p>
             </div>
             <div class="image">
@@ -46,6 +46,10 @@
         var msg2 = content.onelinedescription;
         document.getElementById('description').innerHTML = msg1;
         document.getElementById('oneline').innerHTML = msg2;
+        window.addEventListener('scroll', function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky',window.scrollY > 0)
+        })
     </script>
 </body>
 </html>

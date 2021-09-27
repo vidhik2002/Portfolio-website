@@ -27,7 +27,11 @@ header {
     left:0;
     width:100%;
     /* color: white; */
-    background-color:rgb(122, 116, 116);
+    background-color:rgb(10, 29, 128);
+}
+header .sticky {
+    background: #fff;
+    padding: 20px 100px;
 }
 header ul {
     display: flex;
@@ -69,15 +73,40 @@ header .toggle {
     position: relative;
     margin-top: 2rem;
     min-height: 100vh;
-    /* background: url(black-texture.jpg); */
     background-color: black;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* align-items: center; */
     color: white;
+}
+section .heading{
+    
+    /* font-size: 3rem;
+    align-items: center;
+    justify-content: center; */
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.heading h2 {
+    font-weight: 800;
+    font-size: 3rem;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+}
+.img {
+    width: 40rem;
+    height: 30rem;
+}
+.contentbox p {
+    width: 500px;
+    word-wrap: break-word;
+}
+.image {
+    min-width: 50%;
 }
 .work {
     position: relative;
@@ -91,22 +120,4 @@ header .toggle {
     justify-content: center;
     align-items: center;
     color: white;
-}
-section .heading{
-    
-    font-size: 3rem;
-    align-items: center;
-    justify-content: center;
-}
-.content {
-    display: flex;
-    justify-content: space-between;
-}
-.img {
-    width: 40rem;
-    height: 30rem;
-}
-.contentbox p {
-    width: 500px;
-    word-wrap: break-word;
 }
