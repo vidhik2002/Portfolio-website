@@ -17,7 +17,7 @@
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#work">Work</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li><a href="#contact">Contact Me</a></li>
         </ul>
     </header>
     <section class="about" id="about">
@@ -34,18 +34,54 @@
             </div>
         </div>
     </section>
-    <section class="work" id="work">
-        <div>
-            <h2> Vidhi Khaitan </h2>
-            <h3>Tech Enthusiast</h3>
-            <button>About me</button>
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2> Contact Me</h2>
+            <p id="contactdescription">random text hehehheheh</p>
+        </div>
+        <div class="content">
+            <div class="contactinfo">
+                <h2>Contact info</h2>
+                <div class="contactinfobox">
+                    <div class="box">
+                        <div class="icon"></div>
+                            <div class="text">
+                                <h3> Address</h3>
+                                <p id="address"></p>
+                            </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"></div>
+                            <div class="text">
+                                <h3> Phone</h3>
+                                <p id="phone"></p>
+                            </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"></div>
+                            <div class="text">
+                                <h3>Email</h3>
+                                <p id="email"></p>
+                            </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
     <script type="text/javascript">
         var msg1 = content.aboutdescription;
         var msg2 = content.onelinedescription;
+        var msg3 = content.contactdescription;
+        var msg4 = content.address;
+        var msg5 = content.phone;
+        var msg6 = content.email;
         document.getElementById('description').innerHTML = msg1;
         document.getElementById('oneline').innerHTML = msg2;
+        document.getElementById('contactdescription').innerHTML = msg3;
+        document.getElementById('address').innerHTML = msg4;
+        document.getElementById('phone').innerHTML = msg5;
+        document.getElementById('email').innerHTML = msg6;
         window.addEventListener('scroll', function(){
             var header = document.querySelector('header');
             header.classList.toggle('sticky',window.scrollY > 0)

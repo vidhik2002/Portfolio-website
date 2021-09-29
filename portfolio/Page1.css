@@ -5,17 +5,9 @@
     font-family: 'Courier New', Courier, monospace;
 }
 section {
-    padding:100px;
+    padding-top:100px;
+    padding-left:50px;
 }
-/* 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #18191f;
-    flex-direction: column;
-} */
 header {
     display: flex;
     justify-content: space-between;
@@ -71,7 +63,6 @@ header .toggle {
 }  */
 .about {
     position: relative;
-    margin-top: 2rem;
     min-height: 100vh;
     background-color: black;
     background-repeat: no-repeat;
@@ -80,10 +71,6 @@ header .toggle {
     color: white;
 }
 section .heading{
-    
-    /* font-size: 3rem;
-    align-items: center;
-    justify-content: center; */
     width: 100%;
     text-align: center;
     margin-bottom: 30px;
@@ -120,5 +107,15 @@ section .heading{
     align-items: center;
     justify-content: center;
     align-items: center;
+    color: white;
+}
+.contact {
+    position: relative;
+    /* margin-top: 2rem; */
+    min-height: 100vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
     color: white;
 }
