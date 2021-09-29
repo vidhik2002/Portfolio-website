@@ -7,13 +7,14 @@
 section {
     padding-top:100px;
     padding-left:50px;
+    padding-right:50px;
 }
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
-    padding: 30px 100px;
+    padding: 20px 100px;
     position: fixed;
     top:0;
     left:0;
@@ -21,10 +22,10 @@ header {
     /* color: white; */
     background-color:rgb(10, 29, 128);
 }
-header .sticky {
+/* header .sticky {
     background: #fff;
     padding: 20px 100px;
-}
+} */
 header ul {
     display: flex;
     position: relative;
@@ -118,4 +119,39 @@ section .heading{
     display: flex;
     flex-direction: column;
     color: white;
+}
+.box {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+
+}
+.box .text {
+    margin-left: 10px;
+}
+.formbox {
+    min-width: 60%;
+}
+.formbox form {
+    display: flex;
+    flex-direction: column;
+}
+.formbox form h3 {
+    font-size: 20px;
+    font-weight: 650;
+    margin-bottom: 10px;
+}
+.formbox form input,
+.formbox form textarea {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background: #222;
+    color: #fff;
+    resize:none;
+}
+.formbox form textarea {
+    height: 100px;
 }
