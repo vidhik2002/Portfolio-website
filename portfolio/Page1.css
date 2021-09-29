@@ -183,7 +183,7 @@ section .heading{
     position: relative;
     min-height: 100vh;
     /* background: url(/images/black-texture.jpg); */
-    background-color: black;
+    background-color: rgb(3, 42, 49);
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
