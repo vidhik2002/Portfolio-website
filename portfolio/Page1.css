@@ -25,10 +25,6 @@ header {
     /* color: white; */
     background-color:rgb(10, 29, 128);
 }
-/* header .sticky {
-    background: #fff;
-    padding: 20px 100px;
-} */
 header ul {
     display: flex;
     position: relative;
@@ -55,16 +51,6 @@ header .logo {
     text-decoration: none;
     text-transform: uppercase;
 }
-/* header .logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-}
-header .toggle {
-    display: flex;
-    justify-content: space-between;
-}  */
 .about {
     position: relative;
     min-height: 100vh;
@@ -86,12 +72,10 @@ section .heading{
 .content {
     display: flex;
     justify-content: space-between;
-    /* padding-right:30px; */
 }
 .img {
     width: 100%;
     min-height: 50%;
-    /* padding: 15px; */
 }
 .contentbox p {
     width: 500px;
@@ -106,7 +90,6 @@ section .heading{
 
 .contact {
     position: relative;
-    /* margin-top: 2rem; */
     min-height: 100vh;
     background-color: black;
     background-repeat: no-repeat;
@@ -185,7 +168,6 @@ section .heading{
 .work {
     position: relative;
     min-height: 100vh;
-    /* background: url(/images/black-texture.jpg); */
     /* background-color: rgb(127, 155, 160); */
     background-color: black;
     background-repeat: no-repeat;
@@ -244,20 +226,17 @@ section .direction {
 .skills .column {
   float: left;
   width: 33.33%;
-  padding: 5px;
-  height: 6rem;
-  width:  6rem;
+  padding: 15px;
+  height: 8rem;
+  width:  8rem;
 }
-
-/* Clearfix (clear floats) */
 .skills .row::after {
   content: "";
   clear: both;
   display: table;
 }
-
 .skills .image {
-    min-width: 50%;
-    width: 20rem;
+    min-width: 45%;
+    width: 15rem;
     height:15rem;
 }
