@@ -98,10 +98,15 @@ section .heading{
     color: white;
 }
 .box {
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
     display: flex;
     flex-direction: row;
 
+}
+.connectinfobox .box {
+    display: flex;
+    flex-direction: row;
+    padding:0;
 }
 .box .text {
     margin-left: 20px;
@@ -133,7 +138,7 @@ section .heading{
     border-radius: 15px;
 }
 .formbox form textarea {
-    height: 100px;
+    height: 120px;
 }
 .formbox form input::placeholder,
 .formbox form textarea::placeholder {
@@ -239,4 +244,17 @@ section .direction {
     min-width: 45%;
     width: 15rem;
     height:15rem;
+}
+.connecticon {
+    height: 2rem;
+    width:2rem;
+}
+
+.connectinfobox .box .text a{
+    color: white;
+    text-decoration: none;
+}
+.connectinfobox .box .text a:hover{
+    color: rgb(196, 191, 191);
+    text-decoration: none;
 }
