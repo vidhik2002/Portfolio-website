@@ -232,6 +232,18 @@ section .direction {
   background-color: #2980b9;
   color: white;
   transform: rotateY(180deg);
+  font-weight: 700;
+  padding: 10px;
+}
+.flip-card-back a {
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.flip-card-back a:hover{
+    color: rgb(0, 38, 49);
+    text-decoration: none;
 }
 .skills .column {
   float: left;
