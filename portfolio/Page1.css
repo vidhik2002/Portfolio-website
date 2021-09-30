@@ -216,6 +216,11 @@ section .direction {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  /* min-height: 100vh; */
+  justify-content: center;
+  align-items: center;
 }
 
 .flip-card-front {
