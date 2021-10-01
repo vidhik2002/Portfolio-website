@@ -11,12 +11,18 @@ git clone https://github.com/vidhik2002/Portfolio-website.git
 cd portfolio
 ```
 3. Add content.js
-```
+```sh
 var content = {
-  name: "<YOUR_NAME>",
-  description: "<YOUR_DESCRIPTION>",
-  button: "<TEXT_ON_BUTTON>",
-};
+    "name": "<YOUR_NAME>",
+    "description": "<ONELINE_DESCRIPTION>",
+    "button": "<TEXT_ON_BUTTON>",
+    "onelinedescription":"<ONELINE_DESCRIPTION_ABOUTME>",
+    "aboutdescription": "<DESCRIPTION_ABOUTME>",
+    "contactdescription":"<DESCRIPTION_CONTACT>",
+    "address": "<ADDRESS>",
+    "phone": "<PHONE_NO.>",
+    "email": "<GMAIL>"
+}
 ```
 4. Run the command
 ```sh
