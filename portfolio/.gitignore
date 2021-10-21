@@ -1,5 +1,4 @@
 node_modules
-content.js
 .DS_Store
 dist
 dist-ssr
