@@ -21,17 +21,19 @@
         min-height: 100vh;
         min-width: 100vw;
         color: white;
-        font-family:'Courier New', Courier, monospace; 
+        /* font-family:'Courier New', Courier, monospace;  */
+        font-family: Garamond, ui-sans-serif;
         font-weight: bold;
-        font-size: 2.7rem;
-        margin-bottom: 25px;
+        font-size: 2.9rem;
+        /* margin-bottom: 0px; */
       }
       #description {
-        font-size: 1.5rem;
+        /* font-size: 2rem; */
       }
       button {
         border: none;
-        background-color: rgb(2, 1, 61);
+        /* background-color: rgb(2, 1, 61); */
+        background-color: rgb(33, 30, 43);
         color: white;
         font-size: 15px;
         width: 20%;
@@ -42,6 +44,7 @@
       button:hover {
         border-color: black;
         background-color: black;
+        cursor:pointer;
       }
       h1 {
         padding-bottom: 0;
@@ -49,6 +52,7 @@
       }
       p {
         margin-left: 0.8rem;
+        margin-bottom: 10px;
       }
     </style>
     <script src="content.js"></script>
@@ -57,7 +61,7 @@
       <div id="app">
         <div
         class="overlay">  
-          <p id="name"></p>
+          <p id="name" style="margin-bottom: 0px;"></p>
           <p id="description"></p>
           <button id="button" onclick="window.location.href='/Page1.html'"></button>
         </div>
