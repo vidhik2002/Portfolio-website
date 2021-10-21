@@ -26,7 +26,7 @@ var content = {
 ```
 4. Run the command
 ```sh
-npm run dev
+node index.js
 ```
 ## Deployment
 
