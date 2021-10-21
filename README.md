@@ -10,7 +10,7 @@ git clone https://github.com/vidhik2002/Portfolio-website.git
 ```sh
 cd portfolio
 ```
-3. Add content.js
+3. Edit content.js
 ```sh
 var content = {
     "name": "<YOUR_NAME>",
