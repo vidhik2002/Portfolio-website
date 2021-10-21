@@ -188,6 +188,7 @@ section .direction {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
     grid-gap: 10px;
+    grid-template-rows: repeat(auto-fit, minmax(230px, 1fr));
 }
 .flip-card {
   background-color: transparent;
@@ -274,4 +275,32 @@ section .direction {
 .connectinfobox .box .text a:hover{
     color: rgb(196, 191, 191);
     text-decoration: none;
+}
+
+@media only screen and (max-width: 856px) {
+  .img {
+    display: none;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 927px) {
+  section .direction {
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  }
+}
+@media only screen and (max-width: 766px) {
+  header ul {
+    display: none;
+  }
+  header a{
+    text-align: center;
+    width: 100%;
+  }
+  .contentbox p #id {
+    text-align: center;
+    width: 100%;
+  }
 }
