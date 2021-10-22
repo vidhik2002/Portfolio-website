@@ -54,6 +54,7 @@ header .logo {
 .about {
     position: relative;
     min-height: 100vh;
+    /* min-width: 100vw; */
     background-color: black;
     background-repeat: no-repeat;
     display: flex;
@@ -78,7 +79,7 @@ section .heading{
     min-height: 50%;
 }
 .contentbox p {
-    width: 500px;
+    width: 30rem;
     word-wrap: break-word;
     padding-right:30px;
 }
@@ -305,4 +306,22 @@ section .direction {
     text-align: center;
     width: 100%;
   }
+}
+
+/* @media only screen and (max-width: 360px) {
+.contentbox p {
+    width: 14rem;
+    word-wrap: break-word;
+    padding-right: 10px;
+    margin-right: 0px;
+}
+} */
+
+@media only screen and (max-width: 420px) {
+    .contentbox p {
+    width: 14rem;
+    word-wrap: break-word;
+    padding-right: 10px;
+    margin-right: 0px;
+}
 }
