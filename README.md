@@ -8,7 +8,7 @@ git clone https://github.com/vidhik2002/Portfolio-website.git
 ```
 2. Move into folder
 ```sh
-cd portfolio
+cd Portfolio-website/portfolio
 ```
 3. Edit content.js
 ```sh
