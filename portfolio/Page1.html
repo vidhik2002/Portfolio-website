@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="Page1.css">
     <script type="text/javascript" src="content.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/> -->
+     <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <style>
     ::-webkit-scrollbar {
     width: 20px;
@@ -25,6 +30,42 @@
     ::-webkit-scrollbar-thumb:hover {
     background: rgb(20, 61, 245); 
     }
+    html,
+      body {
+        position: relative;
+        height: 100%;
+        overflow-x: hidden;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 50%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .swiper-slide img {
+        padding-left: 50px;
+        display: block;
+        width: 100%;
+        /* width:auto; */
+      }
+    </style>
     </style>
 </head>
 <body>
@@ -72,134 +113,140 @@
         <div class="heading">
             <h2>Tools and Skills</h2>
         </div>
-        <div class="content"> 
+        <div class="content">
             <div class="row">
-                <div class="column">
+                <div class="swiper mySwiper">
+                <div class="swiper-wrapper"> 
+                <div class="column swiper-slide">
                     <a href="https://www.python.org/" target="_blank">
                     <img src="/images/python.png" alt="Snow" style="width:100%">
                     </a>
                 </div>
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://www.djangoproject.com/" target="_blank">
                     <img src="/images/django.png"  alt="Snow" style="width:100%">
                     </a>
                 </div>
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://www.cprogramming.com/" target="_blank">
                     <img src="/images/c-original.svg" alt="Snow" style="width:100%">
                     </a>
                 </div>
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://www.tutorialspoint.com/How-to-write-the-first-Cplusplus-program" target="_blank">
                     <img src="/images/cpp.png" alt="Snow" style="width:100%">
                     </a>
                 </div>
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://htmldog.com/" target="_blank">
                     <img src="/images/html.png" alt="Snow" style="width:100%">
                     </a>
                 </div>
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
                     <img src="/images/css.png" alt="Snow" style="width:100%">
                     </a>
                 </div>
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://www.docker.com/" target="_blank">
                     <img src="/images/docker.png" alt="Snow" style="width:100%">
                     </a>
                 </div>
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://github.com/" target="_blank">
                     <img src="/images/git.png" alt="Snow" style="width:100%">
                     </a>
                 </div>
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://golang.org/" target="_blank">
-                    <img src="/images/go.png" alt="Snow" style="width:100%;background-color: white;">
+                    <img src="/images/golang2-removebg-preview.png" alt="Snow" style="width:110%;height:80%">
                     </a>
                 </div>
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://www.javascript.com/" target="_blank">
                     <img src="/images/javascript.png" alt="Snow" style="width:100%">
                     </a>
                 </div>
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://mongoosejs.com/" target="_blank">
                     <img src="/images/mongoose.png" alt="Snow" style="width:100%">
                     </a>
                 </div>
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://nodejs.org/en/" target="_blank">
                     <img src="/images/nodejs.png" alt="Snow" style="width:100%">
                     </a>
                 </div>
                 
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://reactjs.org/" target="_blank">
                     <img src="/images/react.png" alt="Snow" style="width:100%">
                     </a>
                 </div>
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://www.rust-lang.org/" target="_blank">
-                    <img src="/images/rust.png" alt="Snow" style="width:100%;background-color: white;">
+                    <img src="/images/rust2.jpg" alt="Snow" style="width:100%;height:80%">
                     </a>
                 </div>
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://tailwindcss.com/" target="_blank">
                     <img src="/images/tailwind.png" alt="Snow" style="width:100%">
                     </a>
                 </div>
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://www.typescriptlang.org/" target="_blank">
                     <img src="/images/typescript.png" alt="Snow" style="width:100%">
                     </a>
                 </div>
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://code.visualstudio.com/" target="_blank">
                     <img src="/images/visual-studio-code.png" alt="Snow" style="width:100%">
                     </a>
                 </div>
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://getbootstrap.com/" target="_blank">
                     <img src="/images/bootstrap-plain-wordmark.svg" alt="Snow" style="width:100%">
                     </a>
                 </div>
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://www.oracle.com/in/database/technologies/xe-downloads.html" target="_blank">
                     <img src="/images/oracle-original.svg" alt="Snow" style="width:100%">
                     </a>
                 </div>
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://www.postman.com/" target="_blank">
                     <img src="/images/postman.svg" alt="Snow" style="width:100%">
                     </a>
                 </div>
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://redis.io/" target="_blank">
                     <img src="/images/redis.png" alt="Snow" style="width:100%">
                     </a>
                 </div>
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://graphql.org/" target="_blank">
                     <img src="/images/graphql.png" alt="Snow" style="width:100%">
                     </a>
                 </div>
-                <div class="column">
+                <div class="column swiper-slide">
                     <a href="https://vuejs.org/" target="_blank">
                     <img src="/images/vue.png" alt="Snow" style="width:100%">
                     </a>
                 </div>
                 
                 
-            </div>    
+            </div> 
         </div>
+        <div class="swiper-pagination"></div>
+        </div>
+    </div>
     </section>
     <section class="work" id="work">
         <div class="heading">
             <h2>Projects</h2>
         </div>
         <div class="direction">
+            
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
@@ -241,7 +288,8 @@
                     <p><a href="https://github.com/vidhik2002/MarkdownParser" target="_blank"> View Code</a></p>
                     </div>
                 </div>
-            </div><div class="flip-card">
+            </div>
+            <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
                     <h1 style="font-weight: 800;margin-left: 10px;margin-right: 10px;margin-bottom: 25px;">Note</h1>
@@ -281,6 +329,7 @@
                     </div>
                 </div>
             </div>
+        
         </div>
         <button id="button" onclick="window.open('https://github.com/vidhik2002/')" 
             style="border: none;
@@ -365,6 +414,31 @@
         </div>
     </section>
     </div>
-    
+   <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        initialSlide : 4,
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        autoplay: {
+            delay: 1500,
+        },
+      });
+    </script>
 </body>
 </html>
