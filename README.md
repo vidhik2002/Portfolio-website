@@ -10,21 +10,7 @@ git clone https://github.com/vidhik2002/Portfolio-website.git
 ```sh
 cd Portfolio-website/portfolio
 ```
-3. Edit content.js
-```sh
-var content = {
-    "name": "<YOUR_NAME>",
-    "description": "<ONELINE_DESCRIPTION>",
-    "button": "<TEXT_ON_BUTTON>",
-    "onelinedescription":"<ONELINE_DESCRIPTION_ABOUTME>",
-    "aboutdescription": "<DESCRIPTION_ABOUTME>",
-    "contactdescription":"<DESCRIPTION_CONTACT>",
-    "address": "<ADDRESS>",
-    "phone": "<PHONE_NO.>",
-    "email": "<GMAIL>"
-}
-```
-4. Run the command
+3. Run the command
 ```sh
 node index.js
 ```
