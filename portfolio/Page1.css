@@ -325,19 +325,3 @@ section .direction {
     margin-right: 0px;
 }
 }
-/* .work button {
-    border: none;
-    background-color: rgb(10, 29, 128);
-    color: white;
-    font-size: 15px;
-    width: 20%;
-    height: 20%;
-    padding: 15px;
-    border-radius: 15px;
-    margin-top: 2rem;
-}
-.work button:hover {
-    border-color: rgb(2, 1, 61);
-    background-color: rgb(2, 1, 61);
-    cursor:pointer;
-} */
