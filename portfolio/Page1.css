@@ -325,7 +325,7 @@ section .direction {
     margin-right: 0px;
 }
 }
-button {
+.work button {
     border: none;
     /* background-color: rgb(2, 1, 61); */
     background-color: rgb(10, 29, 128);
@@ -337,7 +337,7 @@ button {
     border-radius: 15px;
     margin-top: 2rem;
 }
-button:hover {
+.work button:hover {
     border-color: rgb(2, 1, 61);
     background-color: rgb(2, 1, 61);
     cursor:pointer;
