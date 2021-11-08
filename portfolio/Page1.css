@@ -329,3 +329,51 @@ section .direction {
     margin-right: 0px;
 }
 }
+.item-container {
+    display: flex;
+  /*Do not forget next line, or items won't wrap*/
+  flex-wrap: wrap;
+}
+@media(max-width: 420px) {
+  .item { 
+    flex: 1 0 100%;
+  }
+  .formbox {
+      margin-top: 45px;
+  }
+  .formbox form h3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .formbox form input[type="submit"] {
+    margin:auto;
+    display:block;
+    margin-bottom:10px;
+  }
+  .contactinfo h2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .contactinfo .box .linkedin {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+.contactinfo .github {
+      margin-right:20px;
+  }
+  /* .contactinfo h3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  } */
+}
+
+@media(max-width: 376px) {
+    .flip-card{
+        width: 250px;
+        height:250px;
+    }
+}
