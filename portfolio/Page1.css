@@ -325,9 +325,8 @@ section .direction {
     margin-right: 0px;
 }
 }
-.work button {
+/* .work button {
     border: none;
-    /* background-color: rgb(2, 1, 61); */
     background-color: rgb(10, 29, 128);
     color: white;
     font-size: 15px;
@@ -341,4 +340,4 @@ section .direction {
     border-color: rgb(2, 1, 61);
     background-color: rgb(2, 1, 61);
     cursor:pointer;
-}
+} */
