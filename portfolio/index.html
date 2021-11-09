@@ -36,8 +36,8 @@
         background-color: rgb(33, 30, 43);
         color: white;
         font-size: 15px;
-        width: 20%;
-        height: 20%;
+        width: 150px;
+        height: 50px;
         padding: 15px;
         border-radius: 15px;
       }
@@ -51,9 +51,23 @@
         margin-bottom: 0;
       }
       p {
-        margin-left: 0.8rem;
+        /* margin-left: 0.8rem; */
         margin-bottom: 10px;
       }
+      @media(max-width: 420px) {
+        .overlay{
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 0;
+        }
+        p {
+        /* margin-left: 0.8rem; */
+        margin-bottom: 20px;
+      }
+    }
+
     </style>
     <script src="content.js"></script>
   </head>
