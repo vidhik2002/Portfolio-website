@@ -74,9 +74,20 @@ section .heading{
     display: flex;
     justify-content: space-between;
 }
+@keyframes drop {
+	0% {
+		opacity: 0;
+		transform: translateX(80px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
 .img {
     width: 100%;
     min-height: 50%;
+    animation: drop 700ms ease;
 }
 .contentbox p {
     width: 30rem;
