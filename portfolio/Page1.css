@@ -337,7 +337,7 @@ section .direction {
     word-wrap: break-word;
     padding-right: 10px;
     margin-right: 0px;
-    } h3 {
+    } #description h3 {
         width: 26rem;
     }
 }
@@ -347,7 +347,7 @@ section .direction {
     word-wrap: break-word;
     padding-right: 10px;
     margin-right: 0px;
-    } h3 {
+    } #description h3 {
         width: 24rem;
     }
 }
@@ -358,7 +358,7 @@ section .direction {
     padding-right: 10px;
     margin-right: 0px;
     }
-    h3 {
+    #description h3 {
         width: 21rem;
     }
 }
@@ -369,7 +369,7 @@ section .direction {
     padding-right: 10px;
     margin-right: 0px;
     }
-    h3 {
+    #description h3 {
         width: 17rem;
     }
 }
@@ -379,7 +379,7 @@ section .direction {
     word-wrap: break-word;
     padding-right: 10px;
     margin-right: 0px;
-    } h3 {
+    } #description h3 {
         width: 13rem;
     }
 }
