@@ -337,7 +337,9 @@ section .direction {
     word-wrap: break-word;
     padding-right: 10px;
     margin-right: 0px;
-}
+    } h3 {
+        width: 26rem;
+    }
 }
 @media only screen and (max-width: 460px) {
     .contentbox p {
@@ -345,7 +347,9 @@ section .direction {
     word-wrap: break-word;
     padding-right: 10px;
     margin-right: 0px;
-}
+    } h3 {
+        width: 24rem;
+    }
 }
 @media only screen and (max-width: 420px) {
     .contentbox p {
@@ -353,7 +357,10 @@ section .direction {
     word-wrap: break-word;
     padding-right: 10px;
     margin-right: 0px;
-}
+    }
+    h3 {
+        width: 21rem;
+    }
 }
 @media only screen and (max-width: 380px) {
     .contentbox p {
@@ -361,7 +368,10 @@ section .direction {
     word-wrap: break-word;
     padding-right: 10px;
     margin-right: 0px;
-}
+    }
+    h3 {
+        width: 17rem;
+    }
 }
 @media only screen and (max-width: 326px) {
     .contentbox p {
@@ -369,7 +379,9 @@ section .direction {
     word-wrap: break-word;
     padding-right: 10px;
     margin-right: 0px;
-}
+    } h3 {
+        width: 13rem;
+    }
 }
 .item-container {
     display: flex;
