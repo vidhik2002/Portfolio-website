@@ -337,7 +337,7 @@ section .direction {
     word-wrap: break-word;
     padding-right: 10px;
     margin-right: 0px;
-    } #description h3 {
+    } #oneline {
         width: 26rem;
     }
 }
@@ -347,7 +347,7 @@ section .direction {
     word-wrap: break-word;
     padding-right: 10px;
     margin-right: 0px;
-    } #description h3 {
+    } #oneline {
         width: 24rem;
     }
 }
@@ -358,7 +358,7 @@ section .direction {
     padding-right: 10px;
     margin-right: 0px;
     }
-    #description h3 {
+    #oneline {
         width: 21rem;
     }
 }
@@ -369,17 +369,17 @@ section .direction {
     padding-right: 10px;
     margin-right: 0px;
     }
-    #description h3 {
+    #oneline {
         width: 17rem;
     }
 }
 @media only screen and (max-width: 326px) {
     .contentbox p {
-    width: 13rem;
+    width: 15rem;
     word-wrap: break-word;
     padding-right: 10px;
     margin-right: 0px;
-    } #description h3 {
+    } #oneline {
         width: 13rem;
     }
 }
