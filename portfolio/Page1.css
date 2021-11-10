@@ -325,16 +325,47 @@ section .direction {
 
 /* @media only screen and (max-width: 360px) {
 .contentbox p {
-    width: 14rem;
+    width: 21rem;
     word-wrap: break-word;
     padding-right: 10px;
     margin-right: 0px;
 }
 } */
-
+@media only screen and (max-width: 500px) {
+    .contentbox p {
+    width: 26rem;
+    word-wrap: break-word;
+    padding-right: 10px;
+    margin-right: 0px;
+}
+}
+@media only screen and (max-width: 460px) {
+    .contentbox p {
+    width: 24rem;
+    word-wrap: break-word;
+    padding-right: 10px;
+    margin-right: 0px;
+}
+}
 @media only screen and (max-width: 420px) {
     .contentbox p {
-    width: 14rem;
+    width: 21rem;
+    word-wrap: break-word;
+    padding-right: 10px;
+    margin-right: 0px;
+}
+}
+@media only screen and (max-width: 380px) {
+    .contentbox p {
+    width: 17rem;
+    word-wrap: break-word;
+    padding-right: 10px;
+    margin-right: 0px;
+}
+}
+@media only screen and (max-width: 326px) {
+    .contentbox p {
+    width: 13rem;
     word-wrap: break-word;
     padding-right: 10px;
     margin-right: 0px;
@@ -526,5 +557,3 @@ section .direction {
 
     }
 }
-
-
