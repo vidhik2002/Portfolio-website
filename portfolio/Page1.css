@@ -578,7 +578,7 @@ section .direction {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     color: white;
     
@@ -645,6 +645,9 @@ section .direction {
     } 
 }
 @media (max-width: 490px) {
+    .cert .heading h2 {
+        margin-top: 10px;
+    }
     .badge {
         display:none;
     } 
