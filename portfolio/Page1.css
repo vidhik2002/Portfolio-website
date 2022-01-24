@@ -203,9 +203,26 @@ section .direction {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
-    grid-gap: 10px;
-    grid-template-rows: repeat(auto-fit, minmax(230px, 1fr));
+    grid-gap: 20px;
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
 }
+
+
+@media only screen and (max-width: 927px) {
+  section .direction {
+    /* grid-template-rows: repeat(auto-fit, minmax(50px, 1fr)); */
+    /* grid-template-rows: auto */
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
+  }
+}
+
+@media only screen and (max-width: 701px) {
+  section .direction {
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  }
+}
+
 .flip-card {
   background-color: transparent;
   width: 300px;
@@ -243,12 +260,17 @@ section .direction {
 }
 
 .flip-card-front {
-  background-color: #bbb;
-  color: black;
+    
+    background-color: #bbb;  
+    /* background-color: rgb(105, 90, 141); */
+    /* background-color: rgb(167 149 209); */
+    /* background-image: linear-gradient(to bottom right, red, yellow); */
+    color: black;
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+    background-color: #2980b9;
+  /* background-color: #858e94; */
   color: white;
   transform: rotateY(180deg);
   font-weight: 700;
@@ -304,11 +326,9 @@ section .direction {
     justify-content: center;
   }
 }
-@media only screen and (max-width: 927px) {
-  section .direction {
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  }
-}
+
+
+
 @media only screen and (max-width: 766px) {
   header ul {
     display: none;
@@ -431,6 +451,14 @@ section .direction {
         height:250px;
     }
 }
+
+
+/* @media(max-width: 916px) {
+    /* .flip-card{
+        display: flex;
+        flex-direction: row;
+    } */
+    
 
 
 
