@@ -91,9 +91,10 @@ section .heading{
     animation: drop 700ms ease;
 }
 .contentbox p {
-    width: 30rem;
+    width: 35rem;
     word-wrap: break-word;
-    padding-right:30px;
+    padding-right: 30px;
+    font-size: 1rem;
 }
 .image {
     min-width: 50%;
@@ -497,7 +498,7 @@ section .direction {
 
 }
 .brand-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: .5rem;
     margin-right: 1rem;
     padding-right: 1rem;
@@ -523,6 +524,7 @@ section .direction {
     text-decoration: none;
     color: white;
     padding: 1rem;
+    font-size: 20px;
 }
 
 .navbar-links li:hover {
