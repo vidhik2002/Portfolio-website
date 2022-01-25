@@ -272,7 +272,8 @@ section .direction {
 
 .flip-card-back {
     /* background-color: #2980b9; */
-    background-color: rgb(10 29 128);
+    /* background-color: rgb(10 29 128); */
+    background-color: rgb(49 68 167);
   /* background-color: #858e94; */
   color: white;
   transform: rotateY(180deg);
@@ -549,10 +550,11 @@ section .direction {
     border-radius: 10px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 903px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        background-color: black;
     }
 
     .toggle-button {
