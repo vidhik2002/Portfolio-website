@@ -725,6 +725,7 @@ section .direction {
     height: 250px;
     width: 250px;
 }
+
 }
 @media (max-width: 607px) {
    .column1-cert img {
