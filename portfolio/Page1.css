@@ -264,9 +264,6 @@ section .direction {
 .flip-card-front {
     
     background-color: #1c1c1c;  
-    /* background-color: rgb(105, 90, 141); */
-    /* background-color: rgb(167 149 209); */
-    /* background-image: linear-gradient(to bottom right, red, yellow); */
     color: rgb(255, 255, 255);
 }
 
@@ -642,7 +639,7 @@ section .direction {
 @media (max-width: 1224px) {
     .badge {
         height: 200px;
-    width:300px;
+        width:300px;
         margin-left: 0px;
     } 
 }
@@ -704,4 +701,47 @@ section .direction {
         width: 50px;
         margin-right: 120px;
     }
+}
+
+.direction-cert {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.column1-cert {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+.column1-cert img {
+    height: 300px;
+    width: 300px;
+}
+@media (max-width: 695px) {
+   .column1-cert img {
+    height: 250px;
+    width: 250px;
+}
+}
+@media (max-width: 607px) {
+   .column1-cert img {
+    height: 200px;
+    width: 200px;
+}
+}
+@media (max-width: 565px) {
+   .direction-cert {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+}
+.column1-cert img {
+    height: 300px;
+    width: 300px;
+}
 }
