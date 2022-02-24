@@ -95,7 +95,7 @@ section .heading{
 .contentbox p {
     width: 35rem;
     word-wrap: break-word;
-    padding-right: 30px;
+    /* padding-right: 30px; */
     font-size: 1.4rem;
 }
 .image {
