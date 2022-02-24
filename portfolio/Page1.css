@@ -93,10 +93,11 @@ section .heading{
     padding-bottom:2rem;
 }
 .contentbox p {
-    width: 35rem;
+    width: 40rem;
     word-wrap: break-word;
-    /* padding-right: 30px; */
+    padding-right: 10px;
     font-size: 1.4rem;
+    color: azure;
 }
 .image {
     min-width: 45%;
