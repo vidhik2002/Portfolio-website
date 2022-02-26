@@ -432,7 +432,7 @@ section .direction {
   }
   .contactinfo h2 {
       display: flex;
-      justify-content: center;
+      /* justify-content: center; */
       align-items: center;
   }
   .contactinfo .box .linkedin {
