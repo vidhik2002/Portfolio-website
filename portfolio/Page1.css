@@ -322,7 +322,7 @@ section .direction {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 856px) {
+@media only screen and (max-width: 1010px) {
   .img {
     display: none;
   }
@@ -332,9 +332,13 @@ section .direction {
   }
 }
 
+@media only screen and (max-width: 830px) {
+    #oneline {
+    width: 38rem;
+    }
+}
 
-
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 786px) {
   header ul {
     display: none;
   }
@@ -346,6 +350,9 @@ section .direction {
     text-align: center;
     width: 100%;
   }
+  #oneline {
+    width: 38rem;
+    }
 }
 
 /* @media only screen and (max-width: 360px) {
