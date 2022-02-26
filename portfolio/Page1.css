@@ -356,9 +356,10 @@ section .direction {
     margin-right: 0px;
 }
 } */
-@media only screen and (max-width: 500px) {
+
+@media only screen and (max-width: 704px) {
     .contentbox p {
-    width: 26rem;
+    width: 35rem;
     word-wrap: break-word;
     padding-right: 10px;
     margin-right: 0px;
@@ -366,7 +367,18 @@ section .direction {
         width: 26rem;
     }
 }
-@media only screen and (max-width: 460px) {
+
+@media only screen and (max-width: 615px) {
+    .contentbox p {
+    width: 30rem;
+    word-wrap: break-word;
+    padding-right: 10px;
+    margin-right: 0px;
+    } #oneline {
+        width: 26rem;
+    }
+}
+@media only screen and (max-width: 552px) {
     .contentbox p {
     width: 24rem;
     word-wrap: break-word;
