@@ -755,3 +755,10 @@ section .direction {
     float: left;
     width: 100%;
 }
+
+.column1-cert img:hover{
+    /* box-shadow: 5px 10px #888888; */
+        box-shadow: 15px 10px #655b8a;
+
+    transition-duration: 0.5s
+}
