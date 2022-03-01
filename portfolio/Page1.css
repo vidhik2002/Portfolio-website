@@ -395,9 +395,9 @@ section .direction {
         width: 24rem;
     }
 }
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 450px) {
     .contentbox p {
-    width: 21rem;
+    width: 20rem;
     word-wrap: break-word;
     padding-right: 10px;
     margin-right: 0px;
