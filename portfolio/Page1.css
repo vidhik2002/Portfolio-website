@@ -777,8 +777,7 @@ section .direction {
 
 .column1-cert img:hover{
     /* box-shadow: 5px 10px #888888; */
-        box-shadow: 15px 10px #655b8a;
-
+    box-shadow: 5px 10px 10px 10px #655b8a;
     transition-duration: 0.5s
 }
 
@@ -793,11 +792,19 @@ section .direction {
     border-radius: 10px;
     width: 48rem;
     height: 16rem;
+    /* box-shadow: 15px 10px #655b8a; */
 }
 #two{
     border-radius: 10px;
     width: 48rem;
     height: 16rem;
+    /* box-shadow: 15px 10px #655b8a; */
+} 
+
+.direction-cert-blog img:hover{
+
+    box-shadow: 5px 10px 10px 10px #655b8a;
+    transition-duration: 0.5s
 }
 @media only screen and (max-width: 1679px) {
     #one {
@@ -843,6 +850,7 @@ section .direction {
     border-radius: 10px;
     width: 32rem;
     height: 16rem;
+    margin-right: 10px;
 }
 #two{
     border-radius: 10px;
