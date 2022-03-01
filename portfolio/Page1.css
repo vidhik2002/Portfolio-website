@@ -395,7 +395,7 @@ section .direction {
         width: 24rem;
     }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 426px) {
     .contentbox p {
     width: 21rem;
     word-wrap: break-word;
