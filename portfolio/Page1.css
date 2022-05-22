@@ -785,7 +785,7 @@ section .direction {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
-    grid-gap: 10px;
+    grid-gap: 20px;
     grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
 }
 #one {
