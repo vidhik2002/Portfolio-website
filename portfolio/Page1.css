@@ -331,7 +331,16 @@ section .direction {
     justify-content: center;
   }
 }
+/* @media only screen and (max-width: 987px) {
 
+  .content {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    display: none;
+    flex:none;
+  }
+} */
 @media only screen and (max-width: 830px) {
     #oneline {
     width: 38rem;
